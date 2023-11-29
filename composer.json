@@ -1,0 +1,27 @@
+{
+    "name": "braip/package-hello-word",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "11.0.x-dev",
+        "php": "^8.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Braip\\PackageHelloWord\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Braip\\PackageHelloWord\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcus Vinicius da Silva",
+            "email": "marcusjapaslv@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

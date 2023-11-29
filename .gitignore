@@ -1,0 +1,6 @@
+/vendor
+/.idea
+.env
+/.docker
+/coverage
+clover.xml
