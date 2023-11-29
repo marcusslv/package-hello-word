@@ -8,12 +8,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Braip\\PackageHelloWord\\": "src/"
+            "Package\\HelloWord\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Braip\\PackageHelloWord\\Tests\\": "tests/"
+            "Package\\HelloWord\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -23,5 +23,8 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "scripts": {
+        "test": "phpunit"
+    }
 }

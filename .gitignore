@@ -4,3 +4,5 @@
 /.docker
 /coverage
 clover.xml
+/.phpunit.result.cache
+/phpunit.xml.bak
